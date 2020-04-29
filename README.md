@@ -1,7 +1,12 @@
 # SQLite3 Atomicity example
 ### Tommy Dougiamas
 
-Unfortunately the sample database data doesn't upload to git.   
+## How to use
+To use it just run `./main.py {user's id} {game's id}`.
+
+Using the sample data userid: 210 and gameid: 100 should be True and anything else should be False.
+
+## DB structure
 Here are the schemas for the tables in the database if you want to test this yourself:
 ```
 CREATE TABLE Customers (
@@ -21,4 +26,3 @@ NAME TEXT NOT NULL
 );
 ```
 
-To use it just run `main.py {user's id} {game's id}`
